@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Hide_Some_Secret_Elements",
+  "version": "1.0",
+  "description": "Hide Some Secret Elements",
+  "permissions": ["activeTab"],
+
+  "browser_action": {
+    "default_popup": "popup.html"
+
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.twitter.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}

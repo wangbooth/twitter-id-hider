@@ -1,0 +1,21 @@
+# Node modules
+/node_modules
+
+# Log files
+*.log
+
+# Directory for built distributions
+/dist
+
+# Dependency directories
+/bower_components
+
+# JetBrains IDEs
+.idea
+
+# Mac OS folder attributes
+.DS_Store
+
+# Temporary files
+*.tmp
+*.temp
